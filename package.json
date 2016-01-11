@@ -1,0 +1,20 @@
+{
+  "name": "run-mod-script",
+  "version": "1.0.0",
+  "description": "Run a script with modified options and cwd",
+  "keywords": [
+    "build-tool"
+  ],
+  "homepage": "https://github.com/dbartholomae/run-mod-script",
+  "bugs": "https://github.com/dbartholomae/run-mod-script/issues",
+  "license": "MIT",
+  "author": "Daniel Bartholomae <daniel@bartholomae.name>",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dbartholomae/run-mod-script.git"
+  },
+  "dependencies": {
+    "minimist": "1.2.0"
+  }
+}
