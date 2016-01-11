@@ -15,11 +15,11 @@ module.exports = function(scriptRunner, dir, options){
   }
 
   process.argv = process.argv.slice(0, 2);
-  process.argv = process.argv.concat(files);
   for (var key in argv) {
     process.argv.push("-" + key);
     process.argv.push(argv[key]);
   }
+  process.argv = process.argv.concat(files);
 
   process.chdir(path.relative(cwd, dir));
   scriptRunner();
